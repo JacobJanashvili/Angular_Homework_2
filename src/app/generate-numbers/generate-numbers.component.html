@@ -1,0 +1,7 @@
+<div>
+  <p *ngFor="let num of nums">
+    {{ num }}:<span [ngStyle]="{ color: num % 2 == 0 ? 'blue' : 'red' }">{{
+      num % 2 == 0 ? "ლუწია" : "კენტია"
+    }}</span>
+  </p>
+</div>
